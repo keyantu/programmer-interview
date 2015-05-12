@@ -95,6 +95,14 @@ SOURCE=.\test_502.cpp
 
 SOURCE=".\test_504-8.cpp"
 # End Source File
+# Begin Source File
+
+SOURCE=.\test_602.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\test_603.cpp
+# End Source File
 # End Group
 # Begin Group "Header Files"
 
