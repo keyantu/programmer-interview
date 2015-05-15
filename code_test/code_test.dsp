@@ -103,6 +103,18 @@ SOURCE=.\test_602.cpp
 
 SOURCE=.\test_603.cpp
 # End Source File
+# Begin Source File
+
+SOURCE=".\test_701-2.cpp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\test_703-7.cpp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\test_801-5.cpp"
+# End Source File
 # End Group
 # Begin Group "Header Files"
 
