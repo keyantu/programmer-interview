@@ -131,7 +131,7 @@ int main(){
 //------------------------------------------------------------------------------------------------
 //------9.3-----面试例题2
 //但是有错误
-/*
+
 #include <iostream>
 using namespace std;
 template<typename t>
@@ -144,7 +144,7 @@ struct tcontainer{
 };
 template<typename t>
 struct tvector:public tcontainer<t>{
-	static const size_t _step = 100;
+	static const size_t _step ;
 
 	tvector(){
 		_size = 0;
@@ -189,9 +189,7 @@ struct tvector:public tcontainer<t>{
 	
 	virtual const t& end(){
 		if (_size)
-		{
 			return buf[_size-1];
-		}
 	}
 	virtual size_t size(){
 		return _size;
@@ -199,9 +197,7 @@ struct tvector:public tcontainer<t>{
 
 	const t& operator[] (size_t i){
 		if (i>=0&&i<_size)
-		{
 			return buf[i];
-		}
 	}
 
 	private:
@@ -209,20 +205,20 @@ struct tvector:public tcontainer<t>{
 		size_t _cap;
 		t* buf;
 };
-
+template <class T>  
+const size_t tvector<T>::_step = 100;  //数组增长的步上  
 int main(){
 	tvector<int> v;
 	for (int i = 0; i<300; i++)
 	{
 		v.push(i);
 	}
-	for (int i = 0; i<300; i++)
+	for (int j = 0; j<300; j++)
 	{
-		cout<<v[i]<<endl;
+		cout<<v[j]<<endl;
 	}
 	return 0;
 }
-*/
 
 
 //------------------------------------------------------------------------------------------------
