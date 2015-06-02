@@ -101,6 +101,14 @@ SOURCE=".\test_1105-7.cpp"
 # End Source File
 # Begin Source File
 
+SOURCE=.\test_1301.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=".\test_1302-6.cpp"
+# End Source File
+# Begin Source File
+
 SOURCE=.\test_501.cpp
 # End Source File
 # Begin Source File
