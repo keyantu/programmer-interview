@@ -6,13 +6,13 @@
 --------------------Configuration: code_test - Win32 Debug--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "C:\Users\dell\AppData\Local\Temp\RSPDE61.tmp" with contents
+Creating temporary file "C:\Users\dell\AppData\Local\Temp\RSPB3D1.tmp" with contents
 [
 /nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/code_test.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
-"E:\for github\programmer-interview-master\programmer-interview\code_test\test_1302-6.cpp"
+"E:\for github\programmer-interview-master\programmer-interview\code_test\test_1404-6.cpp"
 ]
-Creating command line "cl.exe @C:\Users\dell\AppData\Local\Temp\RSPDE61.tmp" 
-Creating temporary file "C:\Users\dell\AppData\Local\Temp\RSPDE62.tmp" with contents
+Creating command line "cl.exe @C:\Users\dell\AppData\Local\Temp\RSPB3D1.tmp" 
+Creating temporary file "C:\Users\dell\AppData\Local\Temp\RSPB3D2.tmp" with contents
 [
 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/code_test.pdb" /debug /machine:I386 /out:"Debug/code_test.exe" /pdbtype:sept 
 ".\Debug\test_1001-4.obj"
@@ -20,6 +20,8 @@ kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32
 ".\Debug\test_1101-4.obj"
 ".\Debug\test_1105-7.obj"
 ".\Debug\test_1301.obj"
+".\Debug\test_1302-6.obj"
+".\Debug\test_1307-9.obj"
 ".\Debug\test_501.obj"
 ".\Debug\test_502.obj"
 ".\Debug\test_504-8.obj"
@@ -29,18 +31,23 @@ kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32
 ".\Debug\test_703-7.obj"
 ".\Debug\test_801-5.obj"
 ".\Debug\test_901-3.obj"
-".\Debug\test_1302-6.obj"
+".\Debug\test_1401-3.obj"
+".\Debug\test_1404-6.obj"
 ]
-Creating command line "link.exe @C:\Users\dell\AppData\Local\Temp\RSPDE62.tmp"
+Creating command line "link.exe @C:\Users\dell\AppData\Local\Temp\RSPB3D2.tmp"
 <h3>Output Window</h3>
 Compiling...
-test_1302-6.cpp
+test_1404-6.cpp
+E:\for github\programmer-interview-master\programmer-interview\code_test\test_1404-6.cpp(74) : warning C4786: 'std::reverse_iterator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *,int>' : identifier was truncated to '255' characters in the debug information
+E:\for github\programmer-interview-master\programmer-interview\code_test\test_1404-6.cpp(74) : warning C4786: 'std::reverse_iterator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,int>' : identifier was truncated to '255' characters in the debug information
+d:\program files\microsoft visual studio\vc98\include\vector(39) : warning C4786: 'std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >' : identifier was truncated to '255' characters in the debug information
+d:\program files\microsoft visual studio\vc98\include\vector(60) : warning C4786: 'std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::~vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >' : identifier was truncated to '255' characters in the debug information
 Linking...
 
 
 
 <h3>Results</h3>
-code_test.exe - 0 error(s), 0 warning(s)
+code_test.exe - 0 error(s), 4 warning(s)
 </pre>
 </body>
 </html>
